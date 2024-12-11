@@ -1,6 +1,6 @@
 # lazygit.nvim
 
-![Screenshot of plugin in action]()
+![Screenshot of plugin in action](https://github.com/zachbuchli/lazygit.nvim/blob/main/assets/hero-shot.png)
 
 
 Use lazygit from within neovim.
