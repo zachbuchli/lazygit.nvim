@@ -1,2 +1,6 @@
 -- this is for setting user commands
--- rename this file to your plugin name
+vim.api.nvim_create_user_command('Lazygit', function()
+  require('lazygit').show()
+end, {
+  desc = 'Open Lazygit',
+})
