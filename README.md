@@ -1,5 +1,7 @@
 # lazygit.nvim
 
+![Screenshot of plugin in action]()
+
 
 Use lazygit from within neovim.
 
@@ -12,5 +14,16 @@ Use lazygit from within neovim.
 
 ### Using Lazy.nvim
 ```lua
-{'zachbuchli/lazygit.nvim'},
+{
+    'zachbuchli/lazygit.nvim',
+    config = function()
+      local lazygit = require 'lazygit'
+
+      -- example keymap
+      vim.keymap.set('n', '<leader>lg', lazygit.show)
+    end,
+  },
 ```
+
+After installation, you can verify the install with `:checkhealth lazygit`. The plugin also
+registers the command `:Lazygit` to display lazygit.
