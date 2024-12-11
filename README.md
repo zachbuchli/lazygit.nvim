@@ -12,5 +12,5 @@ Use lazygit from within neovim.
 
 ### Using Lazy.nvim
 ```lua
-{'zachbuchli/lazygit.nvim'}
+{'zachbuchli/lazygit.nvim'},
 ```
