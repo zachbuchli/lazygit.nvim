@@ -8,7 +8,7 @@ Use lazygit from within neovim.
 
 ### Dependencies
 
-- [lazygit]()
+- [lazygit](https://github.com/jesseduffield/lazygit)
 
 ### Using Lazy.nvim
 ```lua
