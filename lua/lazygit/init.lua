@@ -1,5 +1,4 @@
 -- This module will get autoloaded when neovim starts
--- rename the parent directory to your plugin name.
 
 local M = {}
 
